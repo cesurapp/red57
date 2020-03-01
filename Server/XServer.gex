@@ -1,0 +1,14 @@
+[General]
+Name=XServer
+Project=1
+[Classes]
+Count=9
+Class0="TFormServer","TForm","Server","0","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\Server.pas"
+Class1="TFormSettings","TForm","Settings","0","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\Settings.pas"
+Class2="TFormGetScreenImage","TForm","GetScreenImage","8","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\GetScreenImage.pas"
+Class3="TFormGetCMDAccess","TForm","GetCMDAccess","8","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\GetCMDAccess.pas"
+Class4="TFunctions","TComponent","Functions","0","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\Functions.pas"
+Class5="TFormNewClient","TForm","NewClient","9","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\NewClient.pas"
+Class6="TFormNewUpdate","TForm","NewUpdate","0","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\NewUpdate.pas"
+Class7="TFormGetPCInfo","TForm","GetPCInfo","9","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\GetPCInfo.pas"
+Class8="TFormFileManager","TForm","FileManager","10","C:\Users\Red\Desktop\Delphi Project\TCPServer7\Server\FileManager.pas"
