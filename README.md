@@ -32,14 +32,14 @@ Delphi 7 ile yazılmıştır ve bağımlılığı yoktur. **Botnet**, **Trojan**
 - Win7 ve Win10 üzerinde admin olarak başlangıçta çalışmak için msconfig yada Zamanlanmış Görevleri kullanır.
 - Flashdisk ve Harici disklerdeki dosya değişikliklerini izler ve bulaşabileceği dosyalara bulaşır. Sistemi gereksiz yormaz. 
 - Masaüstü, belgelerim, Flashdisk, Harici Disk gibi bölümlere ara ara genel tarama yapıp bulaşmaya çalışır. 
-- Excel, Word dosyalarına VB6 Macro kodu ekleyer ve bu şekilde kendini bulaştırmaya çalışır. Kullanıcının başlangı.ta makroyu etkinleştirme için sayfaları gizleyerek kullanıcıyı zorlar. Word, Excel bulaşması için makinada office yazılımlarının kurulu olması gerekir, yoksa bulaşmaz.
-- Kodlardaki tüm Stringler (Yazılar) Xor Encoder ile şifrelenmiştir. Burdaki amaç antivirüslerin bellekteki stringleri analiz etmesini engellemektir. (Metod isimleride aynı şekilde anlamsız olarak isimlendirildi)
+- Excel, Word dosyalarına VB6 Macro kodu ekler ve bu şekilde kendini bulaştırmaya çalışır. Kullanıcının başlangıçta makroyu etkinleştirmesi için sayfaları gizleyerek kullanıcıyı zorlar. Word, Excel dosyalarına bulaşması için makinada office yazılımlarının kurulu olması gerekir, yoksa bulaşmaz.
+- Kodlardaki tüm Stringler (Yazılar) Xor Encoder ile şifrelenmiştir. Buradaki amaç antivirüslerin bellekteki stringleri analiz etmesini engellemektir. (Metod isimleride aynı şekilde anlamsız olarak isimlendirildi)
 - Bazı windows apileri genel olarak kötüye kullanıdığından dolayı ve bunları kullanmam gerektiği için bu apileri dinamik olarak şifrelenmiş şekilde kullandım. uKbrdDl.pas - uWin.pas dosyasını incelersiniz.
 - Tüm şifrelemeler uEnc.pas dosyası üzerinden yapılır.
 - Client'in başlangıçta çalışması için gereken tüm işlemleri uAI.pas dosyası yapar. Bu bölüm için farklı düşüncelerim olsada Delphi7 ile anca bu kadar :)
 - Keylogger klavye vuruşlarını kaydeder. Windows API'si kullanılıyor ve birçok antivirüs tarafından fişlenmiş durumda. Gizlemek için çok uğraştım ama bazı antivirüsler bellek üzerinde ara ara tarama yaptıkları için tamamından gizlemek zor.
 - Botnet ile Client üzerinde şu işlemler yapılabilir: Ekran resmi almak, CMD erişimi, Dosya yöneticisi, Miner, Sistem bilgisi, Kes-Kopyala-Yapıştır vs.
-- Botnet için önceleri Delphi Indy9 kullanılırken bu sürümde Windows API'si kullanılmıştır. Kullanılan apiler ve protokoller eski olduğundan dolayı antivirüsler kolayca yakalayabiliyor.
+- Botnet için önceleri "Delphi Indy9" kullanılırken bu sürümde Windows API'si kullanılmıştır. Kullanılan apiler ve protokoller eski olduğundan dolayı antivirüsler kolayca yakalayabiliyor.
 
 Kendi makinanızda çalıştırmayın. Virtualbox ile sanal sunucu kurup deneyin. Bulaşan dosyaları eski haline getirmek gibi bir fantaziye girmedim sonra başınız ağrımasın.
 
