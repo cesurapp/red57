@@ -5,7 +5,9 @@ Delphi 7 ile yazılmıştır ve bağımlılığı yoktur. **Botnet**, **Trojan**
 ---
 
 **UYARI:** BU KODLAR SADECE EĞİTİM AMAÇLI PAYLAŞILIR. SORUMLULUK KABUL ETMİYORUM.
+
 **UYARI:** KENDİ BİLGİSAYARINIZDA ÇALIŞTIRMAYIN. TÜM DOSYALARI ETKİLER.
+
 **UYARI:** YAZILIM DAHA FAZLA GELİŞTİRİLMEMEKTEDİR.
 
 ---
